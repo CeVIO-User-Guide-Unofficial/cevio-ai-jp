@@ -1,0 +1,27 @@
+name: Periodical CeVIO Docs Crawler
+
+on: 
+  schedule:
+    - cron: '0 8 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - run: pip install BeautifulSoup
+      - run: pip install markdownify
+
+      - name: Run start.sh
+        run: bash ./start.sh
+
+      - name: GitHub Push
+        uses: ad-m/github-push-action@master
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: docs
