@@ -1,9 +1,9 @@
 name: Periodical CeVIO Docs Crawler
 
 on: 
- workflow_dispatch:
+  workflow_dispatch:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 8 * * 1,4,0'
 
 jobs:
   build:
