@@ -28,7 +28,7 @@ class CevioSpider:
                 print(e)
                 continue
             break
-        response.encoding = 'uft-8'
+        response.encoding = 'utf-8'
         soup = BeautifulSoup(response.text, 'lxml')
         return soup
     
