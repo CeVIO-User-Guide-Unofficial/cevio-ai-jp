@@ -9,6 +9,7 @@ now=$year-$month-$day
 git config --global user.email ""
 git config --global user.name "Crawler"
 
+git add .
 statusResult=$(git status -u --porcelain)
 if [ -z statusResult ]
 then
@@ -16,6 +17,5 @@ then
 else
     echo 'The workspace is modified:'
     echo "$statusResult"
-    git add .
     git commit -m "update $now"
 fi
