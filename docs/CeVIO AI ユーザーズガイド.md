@@ -9,7 +9,7 @@
   
 
 
- 『CeVIO AI』最新バージョン8.7.2.0 インストーラー（74MB）
+ 『CeVIO AI』最新バージョン8.7.3.0 インストーラー（74MB）
 ----------------------------------------
 
 
@@ -25,7 +25,7 @@
  
   
 
-[![CeVIO_AI_Setup_Download](image/dl_bt.png)](https://cevio.jp/storage/cevio_ai/CeVIO_AI_Setup_x64_(8.7.2.0).msi)
+[![CeVIO_AI_Setup_Download](image/dl_bt.png)](https://cevio.jp/storage/cevio_ai/CeVIO_AI_Setup_x64_(8.7.3.0).msi)
   
 
 
@@ -54,6 +54,28 @@
 
 
 [「可不(KAFU)」インストーラー アップデート](home/kafu_update) 
+
+
+ 2023/12/15 アップデート（バージョン8.7.3.0）
+---------------------------------
+
+
+**▼ソング関連** 
+  
+
+ ・「オプション」に「MIDIファイルの文字コード」を追加。
+   
+
+ MIDIファイルの読み込み／書き出し時の歌詞の文字コードに「UTF-8」も選択可能に。
+   
+
+
+> 
+> 
+> ![](image/V8.7_option_midi_charcode.png)
+> 
+> 
+
 
 
  2023/12/12 アップデート（バージョン8.7.2.0）
