@@ -40,10 +40,10 @@
  A： 「起動に必要なライブラリが不足しています」や「ファイルまたはアセンブリ’CeVIO.Audio.dll’またはその依存関係の１つが読み込めませんでした」と表示されて起動しない場合、必要なライブラリ（補助プログラム）が不足しています。
    
 
-[こちらのマイクロソフト社サポートページ](https://support.microsoft.com/ja-jp/help/2977003/the-latest-supported-visual-c-downloads) 
- から「
+[こちらのマイクロソフト社ページ](https://learn.microsoft.com/ja-JP/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) 
+ の「Visual Studio 2015、2017、2019、および 2022」のX64「
  **vc\_redist.x64.exe** 
- 」をダウンロードして実行してください。
+ 」をダウンロードしてインストールしてください。
    
 
   
@@ -79,7 +79,7 @@
   
 
  該当する場合は、
- [こちらのマイクロソフト社サポートページ](https://support.microsoft.com/ja-jp/windows/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%BE%E3%81%9F%E3%81%AF%E5%89%8A%E9%99%A4%E3%81%8C%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%81%95%E3%82%8C%E3%82%8B%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) 
+ [こちらのマイクロソフト社ページ](https://support.microsoft.com/ja-jp/windows/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%BE%E3%81%9F%E3%81%AF%E5%89%8A%E9%99%A4%E3%81%8C%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%81%95%E3%82%8C%E3%82%8B%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) 
  のトラブルシューティングツールで、「CeVIO AI」と全ボイスを一旦、アンインストールしてださい。
    
 
@@ -228,12 +228,16 @@
 
   
 
- また、インストール時にまれにOSへの連携登録が失敗することがあります。
+ その他、SAPI5連携できない場合やWindowsナレーターで読み上げない場合は、
+ [こちらのマイクロソフト社ページ](https://learn.microsoft.com/ja-JP/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2010-vc-100-sp1-no-longer-supported) 
+ の「
+ **Visual Studio 2010** 
+ 」のX64「
+ **vc\_redist.x64.exe** 
+ 」をダウンロードしてインストールしてください。
    
 
- その場合は、
- [こちらのクリーンインストール](https://cevio.jp/guide/cevio_ai/tool2/) 
- をお試しください。
+ その後、Windowsの「設定」から「CeVIO AI」を一旦アンインストールして再インストールしてください。
    
 
 
@@ -328,6 +332,14 @@
  バージョン9.0.0.0
 --------------
 
+
+ ・楽譜編集画面で再生して調整画面に切り替えて停止するとエラーが発生することがある。
+   
+
+ ※近日修正予定です。修正までの間、再生中に調整画面に切り替えないことで問題を回避できます。
+   
+
+  
 
  ・CPUが一部PentiumやCeleron、古いCore iのPCで、一部ボイスが有効にならず再生等でエラーが発生する。
    
