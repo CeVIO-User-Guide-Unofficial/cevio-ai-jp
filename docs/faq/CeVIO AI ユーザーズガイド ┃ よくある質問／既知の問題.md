@@ -217,18 +217,7 @@
 --------------------------------------------------------
 
 
- A： 「CeVIO AI」は64bitアプリのため、32bitの外部ソフト（「棒読みちゃん」等）とは直接連携できません。
-   
-
- （「棒読みちゃん」等と「CeVIO AI」を連携させる外部ソフトもあるようです。）
-   
-
- 「Word」や「Excel」などのMicrosoft Office、「Acrobat Reader」は非対応です。
-   
-
-  
-
- その他、SAPI5連携できない場合やWindowsナレーターで読み上げない場合は、
+ A： SAPI5連携できない場合やWindowsナレーターで読み上げない場合は、
  [こちらのマイクロソフト社ページ](https://learn.microsoft.com/ja-JP/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2010-vc-100-sp1-no-longer-supported) 
  の「
  **Visual Studio 2010** 
@@ -238,6 +227,17 @@
    
 
  その後、Windowsの「設定」から「CeVIO AI」を一旦アンインストールして再インストールしてください。
+   
+
+  
+
+ 「Word」や「Excel」などのMicrosoft Office、「Acrobat Reader」は非対応です。
+   
+
+ 「CeVIO AI」は64bitアプリのため、32bitの外部ソフト（「棒読みちゃん」等）とは直接連携できません。
+   
+
+ （「棒読みちゃん」等と「CeVIO AI」を連携させる外部ソフトもあるようです。）
    
 
 
@@ -329,17 +329,9 @@
 
 
 
- バージョン9.0.0.0
+ バージョン9.0.1.0
 --------------
 
-
- ・楽譜編集画面で再生して調整画面に切り替えて停止するとエラーが発生することがある。
-   
-
- ※近日修正予定です。修正までの間、再生中に調整画面に切り替えないことで問題を回避できます。
-   
-
-  
 
  ・CPUが一部PentiumやCeleron、古いCore iのPCで、一部ボイスが有効にならず再生等でエラーが発生する。
    
