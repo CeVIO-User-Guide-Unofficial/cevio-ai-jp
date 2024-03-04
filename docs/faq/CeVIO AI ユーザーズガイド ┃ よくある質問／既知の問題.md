@@ -42,7 +42,7 @@
  になる場合があります。
    
 
-[結月ゆかり 麗](../home/yukari_1_1_0) 
+[結月ゆかり 麗](../home/yukari_update) 
  、
  [東北きりたん](../home/kiritan_1_1_0) 
  、
@@ -357,7 +357,7 @@
    
 
  ※
- [結月ゆかり 麗](../home/yukari_1_1_0) 
+ [結月ゆかり 麗](../home/yukari_update) 
  、
  [東北きりたん](../home/kiritan_1_1_0) 
  、
