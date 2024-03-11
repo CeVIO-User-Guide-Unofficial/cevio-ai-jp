@@ -24,6 +24,9 @@
 [『CeVIO AI』の以前のバージョン](archive) 
 
 
+[「Ci flower」ソングボイス アップデート](home/ci_flower_update) 
+
+
 [「結月ゆかり 麗」ソングボイス アップデート](home/yukari_update) 
 
 
@@ -55,6 +58,17 @@
 
 
 [「可不(KAFU)」インストーラー アップデート](home/kafu_update) 
+
+
+ 2024/3/10 ボイスアップデート
+---------------------
+
+
+ ・「Ci flower」ソングボイス2.0.0を公開。
+   
+
+
+[アップデートはこちら](home/ci_flower_update) 
 
 
  2024/3/7 アップデート（バージョン9.1.5.0）
