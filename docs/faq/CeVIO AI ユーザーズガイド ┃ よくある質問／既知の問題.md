@@ -66,9 +66,9 @@ Q： ソフトが起動しない。
    
 
 [こちらのマイクロソフト社ページ](https://learn.microsoft.com/ja-JP/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) 
- の「Visual Studio 2015、2017、2019、および 2022」の「
+ の「Visual Studio 2015、2017、2019、および 2022」のX64「
  **vc\_redist.x64.exe** 
- 」(※)をダウンロードしてインストールしてください。※通常はX64、ARM系CPUのみARM64を選択。
+ 」をダウンロードしてインストールしてください。
    
 
 Q： ソフトが起動しない。保存やエクスポートができない。
@@ -227,7 +227,7 @@ Q： SAPI5連携できない。「Word」や「Excel」、「Acrobat Reader」�
  [こちらのマイクロソフト社ページ](https://learn.microsoft.com/ja-JP/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2010-vc-100-sp1-no-longer-supported) 
  の「
  **Visual Studio 2010** 
- 」の「
+ 」のX64「
  **vc\_redist.x64.exe** 
  」をダウンロードしてインストールしてください。
    
