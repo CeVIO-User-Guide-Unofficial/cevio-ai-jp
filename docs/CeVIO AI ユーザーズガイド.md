@@ -7,7 +7,7 @@
 
   
 
-『CeVIO AI』最新バージョン9\.1\.14\.0 インストーラー（74MB）
+『CeVIO AI』最新バージョン9\.1\.16\.0 インストーラー（74MB）
 ------------------------------------------
 
 
@@ -15,11 +15,14 @@
  初回インストールや手動アップデートの際は、下のボタンをクリックしてダウンロードしてください。
    
 
-[![CeVIO_AI_Setup_Download](image/dl_bt.png)](https://cevio.jp/storage/cevio_ai/CeVIO_AI_Setup_x64_(9.1.14.0).msi)
+[![CeVIO_AI_Setup_Download](image/dl_bt.png)](https://cevio.jp/storage/cevio_ai/CeVIO_AI_Setup_x64_(9.1.16.0).msi)
   
 
 
 [『CeVIO AI』の以前のバージョン](archive) 
+
+
+[「IA AI SONG」ソングボイス2\.0\.0 アップデート](home/ia_song_update) 
 
 
 [「東北きりたん」ソングボイス2\.0\.0 アップデート](home/kiritan_update) 
@@ -71,6 +74,24 @@
 
 
 [「可不(KAFU)」インストーラー アップデート](home/kafu_update) 
+
+2024/8/1 アップデート（バージョン9\.1\.16\.0）
+---------------------------------
+
+
+**▼ソング関連** 
+  
+
+ ・ソングエンジン6\.3\.15に更新。音質は変化ありません。
+   
+
+  
+
+ ・「IA AI SONG」ソングボイス2\.0\.0に対応。
+   
+
+
+[アップデートはこちら](home/ia_song_update) 
 
 2024/6/21 アップデート（バージョン9\.1\.14\.0）
 ----------------------------------
