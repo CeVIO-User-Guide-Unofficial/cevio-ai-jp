@@ -22,6 +22,9 @@
 [『CeVIO AI』の以前のバージョン](archive) 
 
 
+[「分散型自律ゴーレム りむる」ソングボイス2\.0\.0 アップデート](home/reml_song_update) 
+
+
 [「IA AI SONG」ソングボイス2\.0\.0 アップデート](home/ia_song_update) 
 
 
